@@ -1,0 +1,10 @@
+link: https://archive.org/details/clippitMS
+Clippit/Clippy Microsoft Agent
+by Microsoft
+
+Publication date 2000
+Topics Microsoft, Microsoft Agent, Office 2000, Microsoft Office
+This is the version of Clippit (AKA Clippy) from Microsoft Office 2000 Pro, and can be used in any program that uses Microsoft Agent!
+Addeddate 2018-08-25 20:52:09
+Identifier clippitMS
+Scanner Internet Archive HTML5 Uploader 1.6.3

@@ -1,0 +1,16 @@
+link: https://archive.org/details/007AgentUnderFire_USA_redump_13485
+007 - Agent Under Fire (USA)
+
+Topics xbox, og xbox, microsoft xbox, redump, redump.org, vgpc
+This Original Xbox game matches redump.org checksums and is compressed with torrentzip.
+
+007 - Agent Under Fire (USA).iso
+
+crc32=70f48fe4
+md5=99b1307a6d79ed3ee0c42968b0232fb8
+sha1=0bd3244f4902ea6a10a0edee77750ffa6c481598
+
+http://redump.org/disc/13485/
+Addeddate 2018-09-25 08:07:46
+Identifier 007AgentUnderFire_USA_redump_13485
+Scanner Internet Archive Python library 1.8.1

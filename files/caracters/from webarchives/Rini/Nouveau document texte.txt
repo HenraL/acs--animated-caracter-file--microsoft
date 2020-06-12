@@ -1,0 +1,2 @@
+Please do not modify the installation path, if you vae, please change it back to C:\Windows\msagent\chars or exit the installation software and start the installation over again.
+There is no licence for this file.

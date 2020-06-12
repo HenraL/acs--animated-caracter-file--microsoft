@@ -1,0 +1,16 @@
+link: https://archive.org/details/MicrosoftAgentCharlieTheTellerTurtle
+Microsoft Agent Charlie The Teller Turtle Character
+by Elbert Walston
+
+Publication date 2000
+Topics Microsoft Agent Charlie The Teller Turtle Character, Microsoft, Agent, Charlie, The, Teller, Turtle, Character, Microsoft Agent, Charlie The Teller Turtle, Microsoft Agent Characters, MSAgent
+Three agent files that go together for The Charlie the Teller Turtle Collection.
+
+Includes:
+-Charlie.acs
+-Blanket.acs
+-FireChar.acs
+Addeddate 2018-11-10 07:33:57
+Identifier MicrosoftAgentCharlieTheTellerTurtle
+Scanner Internet Archive HTML5 Uploader 1.6.3
+Year 2000

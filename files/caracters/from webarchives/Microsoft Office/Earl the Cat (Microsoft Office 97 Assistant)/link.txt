@@ -1,0 +1,10 @@
+link: https://archive.org/details/earl_20200322
+Earl the Cat (Microsoft Office 97 Assistant)
+by Microsoft
+
+Topics microsoft, office, assistant, clippy, clippit
+Language English
+Earl the Cat was a downloadable assistant for Microsoft Office 97, once available from the official Microsoft website. This executable will install him as an assistant for Office 97 only.
+Addeddate 2020-03-22 06:06:14
+Identifier earl_20200322
+Scanner Internet Archive HTML5 Uploader 1.6.4

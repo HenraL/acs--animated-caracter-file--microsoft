@@ -1,0 +1,10 @@
+link: https://archive.org/details/DotMSAgent
+Dot Microsoft Agent
+by Microsoft
+
+Publication date 2000
+Topics Microsoft, Microsoft Agent, Microsoft Office
+This is the version of Dot from Microsoft Office 2000 Pro, and can be used in any program that uses Microsoft Agent!
+Addeddate 2018-08-25 20:59:21
+Identifier DotMSAgent
+Scanner Internet Archive HTML5 Uploader 1.6.3
