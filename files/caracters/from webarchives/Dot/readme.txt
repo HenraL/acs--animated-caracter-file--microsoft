@@ -1,0 +1,1 @@
+Hello, and thanks for downloading this Microsoft Agent! This is Dot and was ripped from Microsoft Office 2000 Pro. This can be used in any program that uses Microsoft Agent.
