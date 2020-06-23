@@ -1,0 +1,14 @@
+link: https://archive.org/details/tucows_287853_WebSpeak
+WebSpeak
+by http://www.shadisoft.com/webspeak
+
+Publication date 2003-10-07
+Topics WebSpeak, Internet, Web building tools, Special effects, TOOL, TOOLS, WINDOWS, WIN, VOICE RECOGNITION, WINDOWS 2000, WINDOWS ME, TEXT TO SPEECH, TEXT, TEXT-TO-SPEECH, SPEECH RECOGNITION, LITE, PRO, PLUS, FOR, THE, ON, READ, READS, READING, READINGS, APPLICATIONS, SPECIAL, FX, EFFECTS, EFFECT, WEBPAGE, WEBSITE, WEB, SITE, PAGE, SPEECH, ANIMATED, CHARACTERS, CHARACTER, MICROSOFT, AGENT, HOMEPAGE, TALK, TALKING, TALKS, SPEAK, SPEAKS, SPEAKING, ANIMATIONS, URL, HTTP, HTML, WINDOWS XP, WIN95, WIN98, WINME, WINNT, WIN2K, WIN2000, WINXP, WIN2003, 95, 98, NT, 2K, 2000, XP, ME, 2003, WINDOWS 95, WINDOWS 98, SHAREWARE, TRIALWARE, SOFTWARE, APPLICATION, SCRIPT, PROGRAM, PROGRAMMING, VB, VISUAL, BASIC, VISUAL BASIC, WebSpeak
+This allows you to make your Web pages talk using Microsoft Agent characters. When someone visits your site, a Microsoft Agent character pops out and starts talking. You can program the character to speak or select one of several animations.
+Notes
+Tucows, Inc has graciously donated a copy of this software to the Internet Archive's Tucows Software Archive for long term preservation and access. Please check the Tucows website for all current versions of the software.
+
+Addeddate 2004-11-02 12:57:03
+Identifier tucows_287853_WebSpeak
+Rights Shareware
+Tucows_rating 3

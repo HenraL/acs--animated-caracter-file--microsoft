@@ -1,0 +1,224 @@
+<HTML>
+<HEAD>
+<TITLE>Microsoft Agent Hello World (with Error Handling) Sample</TITLE>
+<META NAME="ROBOTS" CONTENT="NOINDEX">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" topmargin=0>
+<!--TOOLBAR_START--><!--TOOLBAR_EXEMPT--><!--TOOLBAR_END-->
+<FONT FACE="verdana,arial,helvetica" SIZE="2">
+
+<CENTER>
+<H3>Microsoft Agent Sample</H3>
+<H2>Hello World<BR>(with Error Handling)</H2>
+
+<HR width=66%>
+<P>This page is a revised version of the Hello World sample.
+<BR>It illustrates some basic error handling techniques to
+<BR>use when loading character animations from an HTTP URL.
+<!--
+The following HTML puts a simple button on the page.
+When clicked, the button invokes the SayHello subroutine.
+-->
+<FORM>
+<INPUT TYPE=BUTTON VALUE="Click here" OnCLick="SayHello" language=VBScript>
+to make Robby appear, say hello, and disappear.
+</FORM>
+
+<P>Notice that clicking the button before Robby's animations
+<BR>have been loaded displays an error message.
+<BR>Watch the Status Bar to monitor loading progress.
+<P>This sample loads its character from an HTTP URL,
+<BR>so you must be connected to the WWW and be able to
+<BR>reach the server at <I>http://agent.microsoft.com</I>,
+<BR>or the sample will not work properly.
+<P>If you have never installed the Lernout & Hauspie TTS Engine,
+<BR>you will be prompted to install it.  Without the TTS Engine,
+<BR>characters will not produce speech output.
+<P>Right-click on the page and select <B>View Source</B>
+<BR>to examine the HTML code for this page.
+<HR width=66%>
+</CENTER>
+
+<!--
+In order to use Microsoft Agent, the Microsoft Agent Control
+OBJECT tag must be placed on the page.  The presence of this
+tag will cause the control to be automatically downloaded and
+installed if it is not found on the client machine when the
+page is processed.  In the example below, the CODEBASE
+attribute is used so that the latest version number can be
+specified.  The URL given is the location of the Agent control
+in the Microsoft ActiveX object store.
+The Agent object will be referred to in script using the name
+assigned to it in the ID field of the OBJECT tag - in this case,
+"AgentControl".
+-->
+<OBJECT ID="AgentControl" width=0 height=0
+ CLASSID="CLSID:F5BE8BD2-7DE6-11D0-91FE-00C04FD701A5"
+ CODEBASE="http://activex.microsoft.com/controls/agent/msagent.exe#VERSION=1,5,0,0">
+</OBJECT>
+
+<!--
+In order to use Text-to-Speech (TTS) output, a TTS engine compatible
+with Microsoft Agent must be installed on the client's machine.
+Your Microsoft Agent license includes a license to use the TruVoice
+TTS engine from Lernout & Hauspie with Microsoft Agent.  The OBJECT tag
+below causes the TTS engine to be downloaded and installed if it is
+not found on the client machine when the page is processed. The
+CODEBASE atribute is included in order to specify the latest version
+number of the control.
+-->
+<OBJECT ID="TruVoice" width=0 height=0
+ CLASSID="CLSID:B8F2846E-CE36-11D0-AC83-00C04FD97575"
+ CODEBASE="#VERSION=1,5,0,0">
+</OBJECT>
+
+
+<SCRIPT language=VBScript>
+Option Explicit			' all variables must be declared
+
+Dim Robby				' the character object
+Dim LoadRequest			' the request objects
+Dim EssentialsRequest	' these could be kept in a single array
+Dim GreetRequest
+Dim HideRequest
+Dim LoadRetries			' number of retries for each request
+Dim EssentialsRetries	' these could be kept in a single array
+Dim GreetRetries
+Dim HideRetries
+Dim DownloadStatus		' staus of downloads
+Dim DataPath			' location of character data:
+
+' VBScript 1.0 does not allow constants to be declared (Const),
+' so DownloadStatus is set to string values.
+
+' Necessary initialization of the control and charcter are most
+' readily accomplished in a page's OnLoad procedure, which is
+' run automatically when the page is first loaded in a browser.
+' The character to be used must first be loaded into the control.
+' In this example the character is loaded from an HTTP URL, which
+' must point to a .ACF file, and an object reference to the newly
+' loaded character is saved in the global variable Robby.
+' Loading a character from a .ACF file does NOT load any
+' of that character's animations; your script must GET each animation
+' before PLAYing it. Here we GET all the animations that will be
+' needed at once, rather than waiting until just before they are played.
+' The .AAF files that were created when this character was built,
+' which contain the individual animations, must be co-located in
+' the same directory as the .ACF file from which the character was loaded.
+' This sample includes script to monitor loading progress and handle
+' request failures. A production quality page should always include
+' such code.
+
+Sub window_OnLoad
+	AgentControl.Connected = True	' temp patch for IE4 PP1
+	DownloadStatus = "NOCHAR"
+	window.status = "Loading character"	' keep the user informed
+	LoadRetries = 2					' retry twice on failure
+	DataPath = "http://agent.microsoft.com/characters/robby/robby.acf"
+	Set LoadRequest = AgentControl.Characters.Load ("Robby", DataPath)
+End Sub
+
+' In order to handle errors, you must define a procedure for the
+' RequstComplete event. This procedure is called by the Agent Control
+' whenever a request is completed, ***if you saved the Request Object
+' for that request in a global variable***.  It is **not called for a
+' request if you didn't save the Request Object for that request**.
+' Whenever you call a request method such as LOAD, GET, or PLAY on
+' a character object, the method returns a request object.  You need
+' not save this object unless you want to check the status of your
+' request and/or want to receive a RequestComplete event for the request.
+' Note how the LOAD request object was saved in global LoadRequest above.
+' Since the requests are queued by the control, only one is being
+' served at any given moment, although more than one may be outstanding.
+
+Sub AgentControl_RequestComplete(byVal RequestObject)
+' RequestObject represents the completed request, and should
+' be compared to the request objects for any outstanding requests
+' to find out which one finished.  It also provides information
+' on any errors that occured.
+	Select Case RequestObject
+		Case LoadRequest
+			If RequestObject.Status <> 0 Then	' load failed
+				If LoadRetries > 0 Then
+					LoadRetries = LoadRetries - 1
+					window.status = "Retrying character load"
+					Set LoadRequest = AgentControl.Characters.Load ("Robby", DataPath)
+				Else
+					window.status = "Character not loaded"
+					window.alert "Could not load character from " & DataPath
+				End If
+			Else	' load succeeded
+				DownloadStatus = "NOESSENTIALS"
+				Set Robby = AgentControl.Characters("Robby")
+				window.status = "Getting essential animations"
+				EssentialsRetries = 2
+				Set EssentialsRequest = Robby.Get ("State", "Showing, Speaking")
+			End If
+		Case EssentialsRequest
+			If RequestObject.Status <> 0 Then	' get failed
+				If EssentialsRetries > 0 Then
+					EssentialsRetries = EssentialsRetries - 1
+					window.status = "Retrying download of essential animations"
+					Set EssentialsRequest = Robby.Get ("State", "Showing, Speaking")
+				Else
+					window.status = "Essential animations missing"
+					window.alert "Could not get essential animations from " & DataPath
+				End If
+			Else	' get succeeded
+				DownloadStatus = "OK"	' now there is enough character data to proceed
+				window.status = "Getting remaining animations"
+				GreetRetries = 1	' a less important animation
+				Set GreetRequest = Robby.Get ("Animation", "Greet")
+				HideRetries = 0		' an unimportant animation
+				Set HideRequest = Robby.Get ("State", "Hiding")
+			End If
+		Case GreetRequest
+			If RequestObject.Status <> 0 Then	' get failed
+				If GreetRetries > 0 Then
+					GreetRetries = GreetRetries - 1
+					Set GreetRequest = Robby.Get ("Animation", "Greet")
+				Else
+					window.status = "Missing greet animation"
+				End If
+			End If
+		Case HideRequest
+			If RequestObject.Status <> 0 Then	' get failed
+				If HideRetries > 0 Then
+					HideRetries = HideRetries - 1
+					Set HideRequest = Robby.Get ("State", "Hiding")
+				Else
+					window.status = "Missing hiding animation"
+				End If
+			Else	' get succeeded
+				window.status = "Character successfully loaded"
+			End If
+	End Select
+End Sub
+
+' Newly loaded characters are initially hidden.
+' The SayHello routine makes the character visible first,
+' then has it play the "Greet" animation and say "Hello World".
+' Finally, it returns the character to the hidden state.
+' Note that it is necessary to get each animation before playing
+' it because the character was loaded from an .ACF file.
+' In this example the RequestComplete events are used to drive the
+' sequence of animation downloads (see procedure above).
+
+Sub SayHello
+	Select Case DownloadStatus	' reaction to button push depends on
+		Case "OK"				' how much data has been downloaded
+			Robby.Show
+			Robby.Play "Greet"
+			Robby.Speak "Hello, World!"
+			Robby.Hide
+		Case "NOCHAR" 
+			MsgBox "No character loaded", 48, "Hello World"
+		Case "NOESSENTIALS"
+			MsgBox "Missing essential animations", 48, "Hello World"
+	End Select
+End Sub
+
+</SCRIPT>
+
+</BODY>
+</HTML>

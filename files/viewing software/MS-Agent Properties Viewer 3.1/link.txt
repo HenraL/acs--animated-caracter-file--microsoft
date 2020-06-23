@@ -1,0 +1,10 @@
+link: https://archive.org/details/MicrosoftAgentPropertiesViewer
+Microsoft Agent Properties Viewer
+by Abhisoft Technologies
+
+Publication date 2006
+Topics Microsoft Agent Properties Viewer, Microsoft Agent, Microsoft, Agent, MSAgent
+MAPV or The Microsoft Agent Properties Viewer is a small and easy to use Freeware that allows you to view detailed information & status about MS Agent 2.0, Characters, Installed TTS engines. You can view information like how many TTS Engines are installed, how many animation are there in a MS Agent Character, What is the TTS Mode of a character. Etc
+Addeddate 2018-09-03 22:32:01
+Identifier MicrosoftAgentPropertiesViewer
+Scanner Internet Archive HTML5 Uploader 1.6.3

@@ -1,0 +1,11 @@
+link: https://archive.org/details/microsoftagentsoftwaredevelopmentkit
+Microsoft Agent Software Development Kit
+by Microsoft
+
+Publication date 1999
+Topics microsoft, agent, msagent
+Language English
+SDK for Microsoft's obsolete Agent technology.
+Addeddate 2020-02-03 22:44:20
+Identifier microsoftagentsoftwaredevelopmentkit
+Scanner Internet Archive HTML5 Uploader 1.6.4

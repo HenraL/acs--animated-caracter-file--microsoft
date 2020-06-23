@@ -1,0 +1,8 @@
+link: https://archive.org/details/devagenta
+Developing for Microsoft Agent: Microsoft ActiveX Technology for Interactive Animated Characters
+
+Topics MS Press, Windows 95, Windows NT, book
+Developing for Microsoft Agent: Microsoft ActiveX Technology for Interactive Animated Characters
+Addeddate 2019-12-28 12:30:28
+Identifier devagenta
+Scanner Internet Archive HTML5 Uploader 1.6.4

@@ -1,0 +1,34 @@
+link: https://archive.org/details/HPTourGuide
+HP Tour Guide
+by Hewlett-Packard
+
+Publication date 2000-08-17
+Topics Hewlett-Packard, HP, HP Pavilion, HP Tour Guide, Victor, Microsoft Agent, Windows, Windows ME, VBScript, Recovery Disc, OEM Bundle, OEM Software, OEM
+Language Multiple
+This is the full HP Tour Guide software that was included with Windows ME HP Pavilion computers. The software was extracted from the applications HP Recovery Disc from an HP Pavilion 7855 PC.
+
+If Victor isn't speaking then you must download and install spchapi.exe to enable voice.
+
+You will need Microsoft Agent installed for this application to work.
+This site provides help and download links.
+
+Explanation of the files:
+hpTGuide_**_**.exe - Original file used to install the HP Tour Guide application files (except for the Victor MS Agent character himself). Pick the appropriate file for your language/country. For example, the United States English version is named HPTGuide_en_us.exe.
+
+Victor.exe - Original file used to install the Victor MS Agent character file
+Note: This will always install to drive C regardless if your Windows installation is on drive C or not.
+
+
+victor-char.exe - User created installer used to install the Victor MS Agent character file.
+Note: This one installs to the proper drive letter.
+
+
+30260901.exe - The WinZip Self-Extractor file directly taken from the HP Recovery Disc that contains the files to install the HP Tour Guide software.
+This contains all the hpTGuide_**_**.exe files as well as other installationscripts that HP used that aren't completely necessary.
+
+31246301.exe - The WinZip Self-Extractor file directly taken from the HP Recovery Disc that contains the files to install the Victor MS Agent character.
+This contains the Victor.exe file as well as other installation scripts that HP used that aren't completely necessary.
+Addeddate 2018-01-10 03:42:32
+Identifier HPTourGuide
+Scanner Internet Archive HTML5 Uploader 1.6.3
+Year 2000
