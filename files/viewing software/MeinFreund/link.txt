@@ -1,0 +1,83 @@
+link: https://web.archive.org/web/20021230034445/http://www.cbuenger.de/myfriend/MeinFreund.exe
+MeinFreund Download
+Hier können Sie das Programm "MeinFreund" herunterladen, das Ihnen die Unterstützung Ihres Freundes bereitstellt. Klicken Sie zum Herunterladen einfach auf die Diskette. Nach dem Download brauchen Sie die Datei einfach nur auszuführen, um die Installation zu starten.
+
+		
+	
+MeinFreund (komplett)
+
+
+	
+kostenlose 30-Tage-Testversion ohne jegliche Funktionseinschränkung, nach oder während der 30 Tage Testzeit kann das Programm hier günstig bestellt werden.
+MeinFreund (ca. 7,0 MB; Version 1.3)
+
+(Enthalten in diesem kompletten Setup: Visual Basic 6 Runtime, MS Agent Control, MS Speech API 4, L&H; Sprachausgabe, deutsche Sprachausgabe, Figur Genie)
+
+		
+Systemvorrausetzungen:
+- Windows 95 (mit Internet Explorer 4 oder Höher) oder Windows 98/ME/NT4 oder 2000
+Installation:
+- Ausführen der Datei MeinFreund.exe nach dem Download
+
+
+Alternative:
+Haben Sie bereits den Microsoft Agent mit einem anderen Produkt installiert, so können Sie hier Schritt für Schritt die benötigten Komponenten des Programms herunterladen. So können Sie genau die Downloads sparen, die Sie bereits gemacht haben. Sind Sie sich nicht sicher, welche Komponenten auf Ihrem Computer installiert sind, so installieren Sie einfach das oben angebotene Komplettpaket, es enthält alle für das Programm benötigten Komponenten und das Programm selbst.
+
+Alle diese Komponenten werden von den jeweiligen Herstellern (wie angegeben) kostenlos zur Verfügung gestellt. Bitte beachten Sie, das je nach Betriebssystem einige Schritte hier übersprungen werden können.
+		
+	
+Komponenten und Programm einzeln
+
+
+	
+Schritt 1: Visual Basic 6.0 Runtime (im Komplettsetup (s.o.) breits enthalten)
+
+Server 1
+
+Alternativ
+
+Diese Datei wird benötigt, um das Programm MeinFreund zu starten. Dies sind die sogenannten VBRun60-Komponenten von Microsoft. Es könnte sehr gut sein, das diese bereits auf Ihrem Computer von einem anderen Produkt installiert worden sind (z.B. Microsoft Office®).
+Microsoft Visual Basic 6.0 Runtime (ca. 1 MB)
+	
+ 
+Schritt 2: Microsoft Agent (im Komplettsetup (s.o.) breits enthalten)
+
+ 
+
+ 
+
+Dies ist die Basiskomponente von Microsoft, die die Figur bereitstellt.
+(Ist in Windows 2000 bereits enthalten)
+MS Agent (391 kB)
+
+	
+ 
+Schritt 3: Sprachausgabe (im Komplettsetup (s.o.) breits enthalten)
+
+Diese Software ist für die Sprache Ihrer Figur verantwortlich. Ohne sie kann Ihr Freund nicht sprechen.
+Microsoft Speech API 4.0 (ca 824 kB)
+
+
+ 
+Schritt 4: TTS (Sprachausgabe deutsch) (im Komplettsetup (s.o.) breits enthalten)
+
+Diese Software-Komponente ist dafür verantwortlich, Ihr Freund in deutsch spricht. Hier sehen Sie die Links zu der deutschen Sprachausgabe. Soll Ihr Freund in einer anderen Sprache mit Ihnen sprechen, so finden Sie hier weitere Sprachen.
+Lernout & Hauspie® Sprachausgabe deutsch (2,2 MB)
+	
+Zusatzdateien für die deutsche Sprache (128 kB)
+	
+ 
+Schritt 5: Eine Figur
+
+Dies sind die 4 Figuren, die von Microsoft kostenlos bereitgestellt werden. Auf der Figuren-Seite finden Sie Links zu sehr vielen weiteren Figuren.
+*	
+*
+	
+			
+* Merlin ist in MS Windows 2000® und MS Windows ME® bereits enthalten.
+* Genie ist im Komplettpaket (s.o.) bereits enthalten
+ 
+Schritt 6: Das Programm MeinFreund (im Komplettsetup (s.o.) breits enthalten)
+
+Dies ist das eigentliche Programm MeinFreund ohne alle Zusatzkomponenten. Dieses Programm alleine läuft nur, wenn Sie alle Systemvorrausetzungen (Schritt 1 bis 5) bereits auf Ihrem Computer installiert haben.
+MeinFreund (ca. 1,2 MB; Version 1.3)
