@@ -1,0 +1,5 @@
+link: http://doubleagent.sourceforge.net/
+Double Agent Is A Program Where You Can Use MASH On Windows 7 And Later
+
+direct download link (for 32-bit Windows): http://sourceforge.net/projects/doubleagent/files/version_1_2_stable/DoubleAgent_x86.msi/download
+direct download link (for 64-bit Windows): http://sourceforge.net/projects/doubleagent/files/version_1_2_stable/DoubleAgent_x64x86.msi/download

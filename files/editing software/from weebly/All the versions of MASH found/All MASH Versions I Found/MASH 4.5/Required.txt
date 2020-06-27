@@ -1,0 +1,21 @@
+Windows 95: Not Working
+
+Windows NT 4.0: Not Working
+
+Windows 98: Working
+
+Windows 2000: Working
+
+Windows ME: Working
+
+Windows XP: Working
+
+Windows Vista: Working
+
+Windows 7: Not Working
+
+Windows 8.1: Not Working
+
+Windows 10: Not Working
+
+Key: Required... I Think

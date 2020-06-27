@@ -1,0 +1,293 @@
++-------------------------------------------ƒƒƒƒƒƒƒƒ-----ƒƒƒƒƒƒƒƒ----+
+| This VENDINFO Product Information File contains both readable text |
+| and tools-accessible data about a product.  See the last text      |
+| section, below, for more information about VENDINFO and its tools. |
++--------------------------------------------------------------------+
+VENDINFO standard v1.04, produced by VendEdit v1.30, 3-Jan-2000
+
+===== Product Information ==============================
+   Product:             MASH The Microsoft Agent Scripting Helper
+   Version:             4.53
+   Version Date:        3-Jan-2000
+   Product Type:        Software
+   Basic Distribution Policy (see License, below, for details):
+      Shareware, freely distributable by all channels
+
+   Product Description: MASH v4.50 <ASP> Bring your Desktop to Life 
+                        with Microsoft Agent 3D Animated Characters, 
+                        Text-to-Speech, and Voice-Activated Commands.
+                        Easily easily compose and playback complex 
+                        and entertaining scripts. Then save your 
+                        presentations to Executable files, Email 
+                        Stationery, VBScript/JavaScript HTML, Visual 
+                        Basic, and VBA for Office 97/2000.
+   Reason for version:  Enhancements, bug fixes, and more...
+
+   Category:            Utilities; Desktop utilities; Multi-function
+   Keywords:            MASH, Microsoft Agent, MSAgent, 3D Animated 
+                        Characters, Text-to-Speech, Voice
+   Required Packages:   MASH
+   This Package:        MASH
+   Registration Fee:    25.00 (US Dollars)
+
+   Required Configuration
+      Processor Family: Intel 80x86 (minimum Pentium)
+        Clock Speed: 90 MHz
+      Minimum OS:       Windows 95
+      Standard RAM:     640K
+      Extended Memory:  32000K
+      Hard Drive Space: 4000K
+      Req'd Software:   Visual Basic 6.0 Run-Time Microsoft Agent 2.0
+                        (Auto-Installer Included) 
+
+   Orders:
+      Address:          BellCraft Technologies
+                        P.O. Box 940147
+                        Houston, TX  77094-7147
+      Phone:            713-952-3017
+      FAX:              713-952-3017
+      Internet:         gsbell@bellcraft.com
+      Other E-mail:     WWW: http://www.bellcraft.com/mash
+
+   Support:
+      Address:          BellCraft Technologies
+                        P.O. Box 940147
+                        Houston, TX  77094-7147
+      Phone:            713-952-3017
+      FAX:              713-952-3017
+      Internet:         gsbell@bellcraft.com
+      Other E-mail:     WWW: http://www.bellcraft.com/mash
+
+
+===== Information for Users ("READ-ME") ================
+
+SYSTEM REQUIREMENTS
+
+o  Windows 98, Windows 95, Windows NT 4.0, Windows 2000 or later
+o  Visual Basic 6.0 Runtime (MSVBVM60.DLL and support files)
+
+The Visual Basic 6.0 Runtime can be downloaded from these locations:
+
+http://support.microsoft.com/download/support/mslfiles/vbrun60.exe
+http://bellcraft.interspeed.net/mash/download/vbrun60.exe
+http://www.bellcraft.com/vbrun60/vbrun60.exe
+
+MASH also requires Microsoft Agent 2.0 to be installed.
+When you run MASH for the first time and it detects that
+Microsoft Agent is not installed, MASH will prompt you to
+automatically download Microsoft Agent, the Lernout & Hauspie
+Text-To-Speech Engine, and the Genie character for you. (3 MB)
+
+If you prefer, you can manually install Microsoft Agent here:
+
+The Microsoft Agent Web Ring
+http://www.msagentring.org
+
+The Microsoft Agent Web Ring - Character Gallery also contains
+dozens of other Agent characters available for download.
+
+The MASH Home Page
+http://www.bellcraft.com/mash
+
+
+===== Packing List =====================================
+
+As released by the author or publisher, this package contained the
+following files in addition to this VENDINFO.DIZ:
+
+        Filename      Size     Date       Time     CRC32
+       _SETUP.1    1601928   3-Jan-2000  04:53a   2833D900
+      FILE_ID.DIZ      354   3-Jan-2000  04:53a   B36CC57C
+       _SETUP.DLL     6128   3-Jan-2000  04:53a   447EDA90
+        SETUP.EXE    45312   3-Jan-2000  04:53a   E70EA4F7
+       _ISDEL.EXE     8192   3-Jan-2000  04:53a   DB6FF40D
+     _INST32I.EX_   320411   3-Jan-2000  04:53a   B807E5B8
+        DISK1.ID         5   3-Jan-2000  04:53a   2ED46A83
+        SETUP.INI       25   3-Jan-2000  04:53a   953B76E4
+        SETUP.INS    70160   3-Jan-2000  04:53a   7EA573AA
+        SETUP.ISS      493   3-Jan-2000  04:53a   1E8BD0E8
+       _SETUP.LIB   198483   3-Jan-2000  04:53a   D12A748C
+        SETUP.PKG      513   3-Jan-2000  04:53a   84518000
+       README.TXT      171   3-Jan-2000  04:53a   F9D97F00
+       VENDOR.TXT      216   3-Jan-2000  04:53a   13796CEE
+
+
+===== Installation =====================================
+
+INSTALLATION
+
+Unzip the contents of MASH45.ZIP to a temporary directory on your hard
+drive.
+
+Run "SETUP.EXE" program and follow the installation prompts.
+
+After installation, you may delete the ZIP file and the temporary
+installation files.
+
+
+RUNNING MASH
+
+After completing the installation, run MASH by selecting the MASH icon
+located in your Start Menu/Programs menu.
+
+If you encounter any error messages when running MASH for the first
+time, please try restarting your computer.
+
+
+UNINSTALLING MASH
+
+MASH may be removed from your system by selecting MASH from your Control
+Panel's Add/Remove Programs list and clicking the Remove button.
+
+In some cases, you may have to manually delete the
+C:\Program Files\BellCraft Technologies\MASH folder afterwards if
+additional files, like MASH Scripts, have been added to the directory.
+
+Visit the MASH Home Page for additional information, updates, samples,
+and more.
+http://www.bellcraft.com/mash
+
+
+===== Warranty =========================================
+
+LICENSE AGREEMENT
+
+You should carefully read the following terms and conditions before
+using this software.  Your use of this software indicates your
+acceptance of this license agreement and warranty.  If you do not
+agree to the terms of this license, promptly destroy all copies of
+this software and its documentation.
+
+COPYRIGHT
+
+This product, its look and feel, and auto-generated scripting are
+copyright 1998-1999 by BellCraft Technologies.  All rights are protected
+by applicable copyright or other intellectual property laws and treaties.
+Any and all rights not expressly granted within this agreement are
+reserved by BellCraft Technologies.
+
+UNREGISTERED VERSION
+
+MASH is Shareware "Try Before You Buy Software" and may be previewed
+for 20 days.  Use of this program after the 20 day trial period
+requires registration.
+
+REGISTERED VERSION
+
+One registered copy of MASH may either be used by a single person who
+uses the software personally on one or more computers, or installed on
+a single computer used multiple people, but not both.
+
+RESTRICTIONS
+
+You expressly agree that you will not:
+
+a) Reverse engineer, disassemble, decompile or otherwise reduce the
+Software to a human-perceptible form or otherwise attempt to recreate
+the source code, except to the extent applicable laws prohibit such
+restrictions. b) Modify, adapt, sublicense, sell, rent or lease the
+Software, or create derivative works based upon the Software in whole
+or in part.
+
+DISCLAIMER OF WARRANTY
+
+THIS SOFTWARE AND THE ACCOMPANYING FILES (IF ANY) ARE PROVIDED AND
+SOLD "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE.  BELLCRAFT TECHNOLOGIES DOES NOT
+WARRANT THAT THE FUNCTIONS CONTAINED IN THE SOFTWARE WILL MEET YOUR
+REQUIREMENTS, OR THAT THE OPERATION OF THE SOFTWARE WILL BE
+UNINTERRUPTED OR ERROR-FREE, OR THAT ANY DEFECTS DISCOVERED IN THE
+SOFTWARE WILL BE CORRECTED.  FURTHERMORE, BELLCRAFT TECHNOLOGIES DOES
+NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING THE USE OR THE
+RESULTS OF THE USE OF THE SOFTWARE IN TERMS OF THEIR CORRECTNESS,
+ACCURACY, RELIABILITY, OR OTHERWISE.  NO ORAL OR WRITTEN INFORMATION
+OR ADVICE GIVEN BY BELLCRAFT TECHNOLOGIES SHALL CREATE A WARRANTY OR
+IN ANY WAY INCREASE THE SCOPE OF THIS WARRANTY.  IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY DAMAGES WHATSOEVER INCLUDING DIRECT,
+INDIRECT, INCIDENTAL, CONSEQUENTIAL, LOSS OF BUSINESS PROFITS OR
+SPECIAL DAMAGES, EVEN IF THE AUTHOR HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.  IN ANY CASE LIABILITY WILL BE LIMITED TO
+TEN PERCENT OF THE AMOUNT OF MONEY THAT THE AUTHOR RECEIVED FROM YOU
+FOR THE USE OF THIS PROGRAM.
+
+COMPLETE AGREEMENT
+
+(a) This License constitutes the entire agreement between the parties
+with respect to the distribution and use of the Software, and
+supersedes all prior or contemporaneous understandings or agreements,
+written or oral, regarding such subject matter.  No amendment to or
+modification of this Agreement will be binding unless in writing and
+signed by a duly authorized representative of BellCraft Technologies.
+(b) The provisions in this Agreement are necessary for the protection
+of the business and goodwill of BellCraft Technologies and are
+considered by the Recipient to be reasonable for such purposes.  The
+Recipient agrees that any breach of this Agreement will cause
+BellCraft Technologies substantial and irreparable damages and,
+therefore, in event of any such breach, in addition to other remedies
+that may be available, BellCraft Technologies shall have the right to
+seek specific performance and other injunctive and equitable relief.
+(c) This Agreement will be binding upon and inure to the benefit of
+the parties hereto and their respective heirs, successors and assigns.
+(d) This Agreement shall be construed and interpreted in accordance
+with the laws of the State of Texas.
+
+
+===== License for Use and Distribution =================
+
+DISTRIBUTION LICENSE
+
+This program may be distributed, completely unaltered, without any
+further permission.
+
+Please direct furthur distribution questions to:
+
+Email:  gsbell@bellcraft.com
+Website:  http://www.bellcraft.com/mash
+
+Mailing Address:
+
+BellCraft Technologies
+P.O. Box 940147
+Houston, Texas  77094-7147
+USA
+
+"BellCraft Technologies" may revoke any permissions granted here, by
+notifying you in writing.  All rights not expressly granted here are
+reserved to "BellCraft Technologies".
+
+
+===== About VENDINFO Files =============================
+
+Each VENDINFO.DIZ file contains extensive information about a product.
+This "human-readable" section is followed by a compressed data record
+useable by automated tools.  The data record allows BBSes and other
+distributors to automate package handling, and provides users with a
+wealth of product information.  VENDINFO tools (free viewer for users,
+free or inexpensive processors for distributors, editors for authors)
+are available from many sources, including the originators of VENDINFO:
+  Rams' Island Software    Voice: 303-841-2848  CompuServe: 76244,324
+  7644 E. Lakecliff Way      BBS: 303-841-6269     FidoNet: 1:104/333
+  Parker, CO 80134-5904 USA  FAX: 303-841-6269        RIME: 1235
+
+
+===== Compressed Data Record Follows ===================
+
+PK
+   ∏#(Åæ  Ú$  	   VENDDATA.	m	-	-									]	46-	=	ç	m	m-		=	-	Ì	-	ùé	~Ón)#
+'
+
+
+
+
+[[
+#F«˜˜7ë¢≈Ãã#jBò4Ï∆ô<ÙÑ·Àœ3¨–÷@Ñ‹ÛLHÅ 
+5Èyﬁ!∆N!àÅ?sãö˘¨SŸµ˜s◊m∫„Õ~Q˝Õ√on”Z÷π˛ÛﬂRy‘^rƒ+=COX0◊ˆy{UßÀf_ˇkÍ£¯}n¸ÍùﬁqN2;Úâ‰	z
+í†Á≈†™§‰3Ï•[|Ü-√÷bÿK„1l-I˝üNÁ∑~Ï¢fN0!%o|ßãetbAœ ¸|·|Sn?˝òoå8‹ Óèæfºü∂5îàùÆJVÛÕku^„«™Ì”æoR“≥_Í–nªYyo´ïw∫l⁄»w›^ªh÷t∞ÌV´.?ø`◊%Âo”É˘N∑2ΩQ˜˜aΩÛ¯◊˘W˜}y?„Nÿ?âÈÀïûo¬ß€È⁄ßè@Í≠VÓ¯–ˆ ≤ßdÓ[Dî}y©ä“ÏˇM√æŒ^uT1îìŸÛ˜ÙGòJN≤Rﬂ÷{&¢¨§‹»/®ÓÎ“È6ë∂7•îˇ»ÖÃfeA€”wäÌÁgÁFó˘uÏw≠/dÍÕ4-,Ú˛®∏˝„ó≈oµZGbnP˘=
+H\ˇ˚≤‹¥ˇö_L∑N˜•JÒ^[.Î≤ú÷aæ¨≥ryß;ﬂ_ôn}⁄´UúÎ∫= Òü^ê˚uzçDˇGﬂ˚y´˝®Mÿèy∑^Ph÷À¸Õux#¢ô†(ä4◊¸Gy€≠œ+Ñı¯øÈhÚK‡˜üæÀˇêÚoFßk¬#îÛ¸∂Ùüäm–ﬂ⁄;]lÉ¯÷Ê?ﬁ—
+6∏a;›|Ø£üu∫ù.á{˚≤ÈN∑6ï8eeiiiGÊ[ñm⁄3Ü√ƒ/´Ó#ª<±%Cé∏5™æÄúr+)ÀŸ[F-~f
+∂K[˚V≤_cU3˜W˛Û+ê5‹¸À≈ÛúΩNw1¯8>~5¯∞íË¬è≠FQ|æÒ’q«πV⁄„NuS~îNÅ”
+ú˛S`ôƒg&(JSß¿)¬G8œpaÜSıP‡ÜJL»yr¡:Z?J?∑≥’ƒDúAπ||ùOX‘”0ú7èÉπ¯M?OôÌØIÆ ÂÊ5i;…Ñ-∞g»Ëfá]ó±Â"å»7!V(&òΩ·˙ùw¶ﬂa¯ÖbçXõÀG‘Ú∑⁄|ó[_ﬂ5\Œı¯Ö7ı«-i%()ÊôÀø˝8‹ô§#˝_\‹ä[“.föˇíg≤8Ai;nº¯Ì“VÖ…òS‡|’GC∫íØ{≤≤≤‚|/Zñø%#=Ê H+y
+úiçø9ëøÙƒ1DMD‡LKœ)0»∞Œ3å0íÖKnÒ1¶˜~_1!æ¡«*?√oRgπ≥’~V¢ˇf@/Ââ%ÓL$‹ÌÏ+ï;A1-◊rm{“HñérÅµ)∆|Yˆ	mLrèÿ)p*‹Ÿ¡3f«ﬂòù#m“<Ñ}/œ¥Ùúßﬂñ"ã¿«¯¯‡ÉIOë›S‡\ PK
+ 
+   ∏#(Åæ  Ú$  	                 VENDDATA.PK      *   /    

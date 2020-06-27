@@ -1,0 +1,2 @@
+link: https://drive.google.com/file/d/0B934PSF7CNEdQU96NzQ4STlmaU0/view
+MASH Is The Microsoft Agent Scripting Helper That Allows You To Make Animations With Microsoft Agents. But This Version Of MASH Comes With 7 Versions Of MASH! Some Of Them Require A Key, Some Of Them Don't. You Can Only Install One Of The Versions You Want. Some Of The Versions Might Not Work On Other Operating Systems. This Was Made By AngryBirdman03
